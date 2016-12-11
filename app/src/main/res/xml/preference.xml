@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/behavior">
+	<CheckBoxPreference
+	    android:key="assignkey4chars"
+	    android:title="@string/title_assignkey4chars"
+	    android:summaryOn="@string/summary_on_assignkey4chars"
+	    android:summaryOff="@string/summary_off_assignkey4chars"
+	    android:defaultValue="false"
+	/>
+	<CheckBoxPreference
+	    android:key="repeatable"
+	    android:title="@string/title_repeatable"
+	    android:summaryOn="@string/summary_on_repeatable"
+	    android:summaryOff="@string/summary_off_repeatable"
+	    android:defaultValue="false"
+	/>
+	<CheckBoxPreference
+	    android:key="bskeysendctrlquestion"
+	    android:title="@string/title_bskeysendctrlquestion"
+	    android:summaryOn="@string/summary_on_bskeysendctrlquestion"
+	    android:summaryOff="@string/summary_off_bskeysendctrlquestion"
+	    android:defaultValue="false"
+	/>
+	<CheckBoxPreference
+	    android:key="delkeysendescseq"
+	    android:title="@string/title_delkeysendescseq"
+	    android:summaryOn="@string/summary_on_delkeysendescseq"
+	    android:summaryOff="@string/summary_off_delkeysendescseq"
+	    android:defaultValue="false"
+	/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/look">
+        <EditTextPreference
+            android:key="portraitkeyheight"
+            android:title="@string/portraitkeyheight_title"
+            android:summary="@string/keyheight_summary"
+            android:dialogTitle="@string/portraitkeyheight_title"
+	    android:inputType="number"
+	/>
+        <EditTextPreference
+            android:key="landscapekeyheight"
+            android:title="@string/landscapekeyheight_title"
+            android:summary="@string/keyheight_summary"
+            android:dialogTitle="@string/landscapekeyheight_title"
+	    android:inputType="number"
+	/>
+    </PreferenceCategory>
+</PreferenceScreen>
